@@ -1,0 +1,49 @@
+ body{
+    text-align:center;
+    background-color: whitesmoke;
+    transition: background-color 0.8s ease;
+    
+}
+.btn{
+    height:200px;
+    width:200px;
+    border-radius: 20%;
+    border:10px solid black;
+    margin: 2.5rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.yellow{
+    background-color:  #ffc107;
+}
+.red{
+    background-color: #dc3545;
+}
+.blue{
+    background-color: #007bff;
+}
+.green{
+    background-color: #28a745 ;
+}
+/* .flash{
+    background-color: white;
+} */
+.userflash{
+    background-color: darkgreen;
+} 
+@keyframes scale {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+}
+
+.flash {
+    animation: scale 0.25s ease;
+}
+
+ 
+
+
